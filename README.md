@@ -13,6 +13,9 @@ npm start
 
 Now the Agent is ready to read the log file and expose them to the client side.
 
+[Here](https://www.youtube.com/watch?v=Xcj8ZomCaoQ) you can find a short video on the Agent installation
+
+
 ##How does it work
 LogManagerAgent is a fillREST API server which expose the Qlik Sense log file. To query it it's enought to send a HTTP GET request to the server (http://<serverName>/logs). This very first version has three end points:
 
